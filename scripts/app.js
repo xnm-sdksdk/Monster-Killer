@@ -4,8 +4,13 @@ const strongAttackValue = 17;
 const heal_value = 20;
 
 // Global variables for identifiers in conditional code
-const mode_attack = "ATTACK"
-const mode_strong_attack = "STRONG_ATTACK"
+const mode_attack = "ATTACK";
+const mode_strong_attack = "STRONG_ATTACK";
+const log_event_player_attack = "PLAYER_ATTACK";
+const log_event_player_strong_attack = "PLAYER_STRONG_ATTACK";
+const log_event_monster_attack = "MONSTER_ATTACK";
+const log_event_player_heal = "PLAYER_HEAL";
+const log_event_monster_heal = "MONSTER_HEAL";
 
 const enteredValue = prompt(
   "Select a value for the heal of player and monster: ",
